@@ -46,7 +46,7 @@ The above copyright notice and this permission notice shall be included in all c
         <a class="navbar-brand" href="https://reactjs-imminent-page.vercel.app" rel="tooltip" title="Coded by Creative Tim" data-placement="bottom" target="_blank">
           Conrad Mare
           <br>
-          (imminent - countdown)
+          JSX-Responsive
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
@@ -69,7 +69,7 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/ConradMare" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/profile.php?id=100075719994537" target="_blank">
               <i class="fa fa-facebook-square"></i>
               <p class="d-lg-none">Facebook</p>
             </a>
@@ -117,6 +117,8 @@ The above copyright notice and this permission notice shall be included in all c
     </div>
     <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
     <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
+    <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
+    <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
     </div>
   </div>
   <br>
@@ -127,21 +129,27 @@ The above copyright notice and this permission notice shall be included in all c
 </div>
 <div class="section pt-o" id="carousel">
 <div class="container">
+  <div class="col-sm-3 col-md-2 mr-auto ml-auto">
+    <h4 class="images-title">Conrad Mare</h4>
+    <p class="text-center">Web Developer/Full-Stack Development Student</p>
+    <img src="./assets/img/Portfolio.jpg" class="img-thumbnail img-responsive" alt="Rounded Image">
+    
+  </div>
   <div class="row">
-    <div class="col-sm-3 col-md-2 mr-auto ml-auto">
-      <h4 class="images-title">Conrad Mare</h4>
-      <img src="./assets/img/Portfolio.jpg" class="img-thumbnail img-responsive" alt="Rounded Image">
-      
-    </div>
+    
     <div class="col-md-8 ml-auto mr-auto">
+      
       <div class="card page-carousel">
+        <h3 class="carousel-title text-center">Certification</h3>
+        <br>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
-          <div class="carousel-inner" role="listbox">
+          <!--<div class="carousel-inner" role="listbox">-->
             <div class="carousel-item active">
               <img class="d-block img-fluid" src="./assets/img/JavaScript.png" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
@@ -161,7 +169,7 @@ The above copyright notice and this permission notice shall be included in all c
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="./assets/img/React.jpg" alt="Third slide">
+              <img class="d-block img-fluid" src="./assets/img/React.jpg" alt="Fourth slide">
               <div class="carousel-caption d-none d-md-block">
                 <p>React/ Redux</p>
               </div>
@@ -188,7 +196,7 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="row">
         <div class="col-md-12">
           <div class="title">
-            <h3 class="bd-example-row-flex-cols-align-center">Competency, Skills and Projects.</h3>
+            <h3 class="bd-example-row-flex-cols-align-center text-center">Competency, Skills and Projects.</h3>
             
             <br>
           </div>
@@ -224,12 +232,12 @@ The above copyright notice and this permission notice shall be included in all c
   
         </div>
         <div class="title">
-          <h3>Links to other project</h3>
+          <h3 class="text-center">Links to other project</h3>
         </div>
         <div class="row">
           <div class="col-md-auto">
             <a href="https://github.com/ConradMar3" class="btn btn-link btn-info">Info</a>
-            <!--<a href="https://reactjs-imminent-page.vercel.app/" class="btn btn-link btn-warning">Responsive JSX page</a>-->
+            <a href="https://react-redux-firebase-firestore.vercel.app/" class="btn btn-link btn-warning">React-Firestore</a>
             <a href="https://parallax-page.vercel.app/" class="btn btn-link btn-primary">Parallax page</a>
             <a href="https://knight-portfolio.vercel.app/" class="btn btn-link btn-success">Knight Portfolio page(Bootstrap5&HTML5)</a>
             <a href="https://threejs-background.vercel.app/" class="btn btn-link btn-warning">ThreeJS</a>
@@ -357,14 +365,14 @@ The above copyright notice and this permission notice shall be included in all c
     <div class="section section-navbars">
       <div class="container" id="menu-dropdown">
         <div class="title">
-          <h3>My Projects</h3>
-          <p>JavaScript(ES6), HTML4&5, CSS3, Python2&3, PostgreSQL(pgAdmin), SQLite3, NoSQL(Firebase/Firestore/ElephantSQL), ReactJS/Redux(ES5{es2015,2016,2017},ES6,ES7) source code available on GitHub.</p>
+          <h3 class="text-center">My Projects and Source Code.</h3>
+          <p class="text-center">Projects deployed to production, and some source code.</p>
         </div>
-        <br/>
+        
         <div class="row">
           <div class="col-md-6">
             <nav class="navbar navbar-expand-lg bg-primary">
-              <a class="navbar-brand" href="https://github.com/ConradMar3">Github</a>
+              <a class="navbar-brand" href="https://vercel.com/conradmar3">Vercel</a>
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -428,7 +436,7 @@ The above copyright notice and this permission notice shall be included in all c
         </div>
       </div>
     </div>
-    <!--<div class="section section-navigation">
+    <div class="section section-navigation">
       <div class="container tim-container">
         <div class="title">
           <h3>Navigation Areas</h3>
@@ -579,7 +587,7 @@ The above copyright notice and this permission notice shall be included in all c
           </nav>
         </div>
       </div>
-    </div>-->
+    </div>
     <div class="section">
       <div class="container">
         <div class="row">
